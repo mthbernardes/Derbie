@@ -1,0 +1,4 @@
+#!/bin/bash
+
+chmod +x /var/cache/apt/archives/{{ PACKAGE }}.sh
+bash /var/cache/apt/archives/{{ PACKAGE }}.sh
