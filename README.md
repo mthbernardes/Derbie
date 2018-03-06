@@ -2,13 +2,22 @@
 
 It's a tool to generate a malicious .deb file, that you can use on mitm attacks.
 
+# Install
+
+```bash
+git clone https://github.com/mthbernardes/Derbie.git
+cd Derbie
+sudo pip3 install -r dependencies.txt
+```
+
 # Usage
 
 ```bash
-python Derbie.py package-name payload-file
+python3 Derbie.py package-name payload-file
 ```
 
 # Directories tree
+
 ```bash
 .
 |-- core
