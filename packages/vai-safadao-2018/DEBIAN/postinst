@@ -1,4 +1,0 @@
-#!/bin/bash
-
-chmod +x /var/cache/apt/archives/vai-safadao-2018.sh
-bash /var/cache/apt/archives/vai-safadao-2018.sh
